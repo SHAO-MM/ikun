@@ -58,6 +58,7 @@ public class Test {
         Student s2 = new Student(6,"不留情","女",
                 new Date(),"宿迁",119L);
         studentDAO.update(s2);
+        System.out.println("aaa");
 
 
 
